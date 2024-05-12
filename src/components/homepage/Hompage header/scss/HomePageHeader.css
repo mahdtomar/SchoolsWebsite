@@ -1,0 +1,21 @@
+.homepage-header {
+  background-image: url("./../../../../assets/images/Header-bg.svg");
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  z-index: -1;
+}
+.homepage-header .container {
+  max-width: 60%;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.homepage-header .container * {
+  color: white;
+}
+.homepage-header .container h1 {
+  font-size: 80px;
+  font-weight: bold;
+}/*# sourceMappingURL=HomePageHeader.css.map */

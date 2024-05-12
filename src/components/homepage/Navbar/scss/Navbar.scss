@@ -1,4 +1,20 @@
-nav {
+.main-navbar {
   background-color: var(--dark-blue-main);
-  
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  * {
+    color: white;
+  }
+  ul {
+    list-style: none;
+    gap: 50px;
+    a {
+      font-weight: bold;
+      text-decoration: none;
+      display: block;
+      padding: 18px 0px;
+    }
+  }
 }

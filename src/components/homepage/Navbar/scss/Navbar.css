@@ -1,3 +1,20 @@
-nav {
+.main-navbar {
   background-color: var(--dark-blue-main);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+.main-navbar * {
+  color: white;
+}
+.main-navbar ul {
+  list-style: none;
+  gap: 50px;
+}
+.main-navbar ul a {
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  padding: 18px 0px;
 }/*# sourceMappingURL=Navbar.css.map */

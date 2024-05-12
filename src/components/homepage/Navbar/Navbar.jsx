@@ -4,11 +4,11 @@ import './scss/Navbar.css'
 
 const Navbar = () => {
     return (
-        <nav>
+        <nav className="main-navbar">
             {/* <img src="" alt="" className="logo" /> */}
-            <div className="container">
+            <div className="container flex2">
                 <h1>Logo</h1>
-                <ul>
+                <ul className='flex2'>
                     <Link to={"/"} active>Home</Link>
                     <Link to={"/services"} active>Services</Link>
                     <Link to={"/about-us"} active>About Us</Link>
