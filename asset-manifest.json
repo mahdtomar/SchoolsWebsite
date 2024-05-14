@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SchoolsWebsite/static/css/main.bc59d74b.css",
+    "main.js": "/SchoolsWebsite/static/js/main.f2117401.js",
+    "static/js/453.c5eaf93b.chunk.js": "/SchoolsWebsite/static/js/453.c5eaf93b.chunk.js",
+    "static/media/Online Teaching.svg": "/SchoolsWebsite/static/media/Online Teaching.0a6e8ef380dc89a53eb741f2e371843a.svg",
+    "static/media/Header-bg.svg": "/SchoolsWebsite/static/media/Header-bg.823b0da8c57b0954ec3f.svg",
+    "static/media/cursorClick.svg": "/SchoolsWebsite/static/media/cursorClick.b6da96c8f735873b58d4acb64174a2de.svg",
+    "static/media/chatbubbles.svg": "/SchoolsWebsite/static/media/chatbubbles.00eb33a916f215f1eb80d5cb9059cc1c.svg",
+    "static/media/userid.svg": "/SchoolsWebsite/static/media/userid.63da7602f39c8226bb97a2b4ab1b1316.svg",
+    "static/media/chart.svg": "/SchoolsWebsite/static/media/chart.806ee3eaf88f94b2fcf784f98a716b70.svg",
+    "index.html": "/SchoolsWebsite/index.html",
+    "main.bc59d74b.css.map": "/SchoolsWebsite/static/css/main.bc59d74b.css.map",
+    "main.f2117401.js.map": "/SchoolsWebsite/static/js/main.f2117401.js.map",
+    "453.c5eaf93b.chunk.js.map": "/SchoolsWebsite/static/js/453.c5eaf93b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc59d74b.css",
+    "static/js/main.f2117401.js"
+  ]
+}
