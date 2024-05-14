@@ -1,0 +1,26 @@
+.homepage-features {
+  margin: 0px auto;
+  background-color: #f7f7f7;
+  padding: 70px 0px;
+  .container {
+    div.offer {
+      width: 50%;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 33px;
+      .feature-square {
+        background-image: var(--sky-blue-gradient);
+        color: white;
+        padding: 125px 50px;
+        font-size: bold;
+        display: grid;
+        place-items: center;
+        border-radius: 20px;
+        box-shadow: 0px 4px 20px 0px rgba($color: #454545, $alpha: 0.25);
+      }
+    }
+  }
+}

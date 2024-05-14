@@ -12,7 +12,7 @@
   --dark-blue-main: #1a2039;
   --sky-blue: #cce1ff;
   --grey-bg: #f7f7f7;
-  --sky-blue-gradient: linear-gradient(-27deg, #003296, #cce1ff);
+  --sky-blue-gradient: linear-gradient(160deg, #003296, #cce1ff);
 }
 /* fonts and spacing */
 html {
@@ -24,7 +24,12 @@ html {
   font-weight: 800;
   font-style: normal;
 }
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
 }
 h2 {
