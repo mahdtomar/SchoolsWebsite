@@ -5,7 +5,7 @@ import "./index.css";
 function App() {
   return (
     <div className="App">
-      <Routes basename="/SchoolsWebsite">
+      <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
