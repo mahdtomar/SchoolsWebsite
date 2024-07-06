@@ -10,8 +10,11 @@
 /* colors */
 :root {
   --dark-blue-main: #1a2039;
+  --gray-blue: #333e6a;
   --sky-blue: #cce1ff;
+  --sky: #e9f3ff;
   --grey-bg: #f7f7f7;
+  --off-white: #f7f7f7;
   --sky-blue-gradient: linear-gradient(160deg, #003296, #cce1ff);
 }
 /* fonts and spacing */

@@ -1,0 +1,150 @@
+.profile-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10%;
+  max-height: 100vh;
+  padding: 100px 100px 20px;
+}
+.profile-grid-container > div {
+  background-color: var(--dark-blue-main);
+  color: var(--off-white);
+  padding: 20px;
+  border-radius: 30px;
+}
+.profile-grid-container .summerized-card {
+  grid-area: 1/1/3/2;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-around;
+}
+.profile-grid-container .summerized-card .flex-vertical img {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  width: 200px;
+  margin: 20px;
+}
+.profile-grid-container .summerized-card .flex-vertical figcaption span {
+  display: block;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px;
+}
+.profile-grid-container .summerized-card .flex-vertical figcaption p {
+  text-align: center;
+}
+.profile-grid-container .summerized-card ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  margin: 50px auto 10px;
+}
+.profile-grid-container .summerized-card ul a {
+  background-color: var(--sky-blue);
+  color: var(--dark-blue-main);
+  text-decoration: none;
+  border-radius: 100px;
+  padding: 10px 20px;
+  transition: padding-right 0.3s;
+}
+.profile-grid-container .summerized-card ul a:hover {
+  padding-right: 8px;
+}
+.profile-grid-container .summerized-card ul a p {
+  font-weight: 900;
+}
+.profile-grid-container .personal-info {
+  grid-area: 1/2/1/3;
+}
+.profile-grid-container .personal-info * {
+  color: var(--sky);
+}
+.profile-grid-container .personal-info .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.profile-grid-container .personal-info .title p {
+  font-weight: 900;
+  font-size: 30px;
+}
+.profile-grid-container .personal-info .title svg {
+  transform: translatex(0px);
+  transition: 0.3s;
+}
+.profile-grid-container .personal-info .title:hover svg {
+  transform: translatex(8px);
+}
+.profile-grid-container .personal-info .user-data div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px;
+}
+.profile-grid-container .personal-info .user-data div p {
+  background-color: var(--gray-blue);
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 100px;
+}
+.profile-grid-container .current-progress {
+  grid-area: 1/3/1/4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.profile-grid-container .current-progress * {
+  color: var(--sky);
+}
+.profile-grid-container .current-progress .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.profile-grid-container .current-progress .title p {
+  font-weight: 900;
+  font-size: 30px;
+}
+.profile-grid-container .current-progress .title svg {
+  transform: translatex(0px);
+  transition: 0.3s;
+}
+.profile-grid-container .current-progress .title:hover svg {
+  transform: translatex(8px);
+}
+.profile-grid-container .current-progress .progress-bar {
+  align-items: flex-start;
+  width: 100%;
+}
+.profile-grid-container .current-progress .progress-bar div {
+  width: 100%;
+  height: 25px;
+  background-color: var(--gray-blue);
+  border-radius: 100px;
+  margin-top: 10px;
+}
+.profile-grid-container .current-progress .progress-bar div span {
+  display: block;
+  height: 100%;
+  border-radius: 100px;
+  background-color: var(--sky);
+}
+.profile-grid-container .current-progress .main-btn {
+  background-color: var(--sky-blue);
+  text-decoration: none;
+  display: flex;
+}
+.profile-grid-container .current-progress .main-btn p {
+  color: var(--dark-blue-main);
+}
+.profile-grid-container .upcoming-classes {
+  grid-area: 2/2/2/4;
+}/*# sourceMappingURL=profile.css.map */
